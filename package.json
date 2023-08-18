@@ -12,9 +12,14 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "antd": "^5.8.2",
+    "crypto-js": "^4.1.1",
+    "firebase": "^10.1.0",
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^6.0.7"
   },
   "devDependencies": {

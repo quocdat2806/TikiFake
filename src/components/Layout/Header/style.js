@@ -49,7 +49,6 @@ export const HeaderActionImage = styled.img`
     &.cart-image{
         margin-right: 0px;
         border-radius: unset;
-
     }
 `
 export const HeaderActionText = styled.a`

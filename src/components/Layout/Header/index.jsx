@@ -11,6 +11,7 @@ import {
   HeaderUserActionWrapper,
   LogoHeaderStyle,
 } from "./style";
+import { Login } from "../../../pages/Login";
 
 const listActions = [
   {
@@ -27,10 +28,15 @@ const listActions = [
   {
     name:"Tài Khoản",
     image:"https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png",
-    alt:"header_menu_item_home"
+    alt:"header_menu_item_home",
 
   }
 ]
+
+function handleClick(e){
+  e.preventDefault();  
+
+}
 
 export const Header = () => {
   return (
@@ -57,8 +63,9 @@ export const Header = () => {
                 <HeaderActionImage
                   src={action.image}
                   alt={action.alt}
+
                 />
-                <HeaderActionText>{action.name} </HeaderActionText>
+                <HeaderActionText onClick={(e)=>{handleClick(e)}}  href={action.href}>{action.name} </HeaderActionText>
               </HeaderAction>
               )
             })}

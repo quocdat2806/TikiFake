@@ -1,0 +1,17 @@
+
+.DefaultLayout_Category{
+display:flex;
+gap:24px;
+justify-content:flex-start;
+border-bottom:1px solid #ccc;
+align-items:center;
+background-color:#ffe880;
+font-size:1.4rem;
+color:#27272A;
+padding:16px 110px;
+}
+.DefaultLayout_Container{
+    background-color: #F5F5F5;
+}
+
+

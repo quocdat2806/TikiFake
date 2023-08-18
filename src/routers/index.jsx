@@ -1,5 +1,6 @@
 import { Error } from "../pages/Error";
 import { Home } from "../pages/Home/Home";
+import { Login } from "../pages/Login";
 import { Order } from "../pages/Order/Order";
 
 const publicRouters = [
@@ -10,6 +11,10 @@ const publicRouters = [
     {
         path:'/order',
         component:Order
+    },
+    {
+        path:'/login',
+        component:Login
     },
     {
         path:'*',
